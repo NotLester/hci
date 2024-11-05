@@ -1,0 +1,55 @@
+.sponsor__card {
+  font-family: "poppins", sans-serif;
+  margin: 20px;
+  border: 1px solid #e4e1e1;
+  margin: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sponsor__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.sponsor__img {
+  height: 70vh;
+  object-fit: cover;
+  width: 100%;
+}
+.min {
+  padding: 10px;
+}
+.gh {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.person {
+  font-size: 16px;
+  color: #444;
+  text-transform: capitalize;
+}
+.desc {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.checkout-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #444;
+  border: none;
+  width: 100%;
+  padding: 10px 30px;
+  color: #ddd;
+  font-family: "poppins", sans-serif;
+  font-size: 15px;
+  gap: 5px;
+  cursor: pointer;
+}
+.text {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+.tyr {
+  font-size: 20px;
+}

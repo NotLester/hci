@@ -1,0 +1,65 @@
+.campaign__container {
+  display: flex;
+  height: 65vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "poppins", sans-serif;
+}
+.campaign__title {
+  color: #30743a;
+  font-size: 15px;
+}
+.campaign__sub__title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: lowercase;
+}
+.campaign__section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  width: 90%;
+}
+.campaign__card {
+  height: 35vh;
+  margin-bottom: 50px;
+  padding: 15px;
+  color: #fff;
+}
+.campaign__card:nth-of-type(1) {
+  background-color: #000000;
+}
+.campaign__card:nth-of-type(2) {
+  background-color: #71a550;
+}
+.campaign__card:nth-of-type(3) {
+  background-color: #30743a;
+}
+.campaign__session__title {
+  margin-bottom: 25px;
+}
+.campaign__session__para {
+  font-weight: 500;
+  line-height: 1.4;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.campaign__session__btn {
+  padding: 7px 25px;
+  background: #fcc001;
+  backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-weight: 500;
+  /* letter-spacing: 1.1px;  */
+  font-family: "poppins", sans-serif;
+}
+.campaign__session__btn:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}

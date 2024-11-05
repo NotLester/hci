@@ -1,0 +1,39 @@
+.nav__header__container {
+  height: 30px;
+  /* position: sticky; */
+  top: 0;
+  /* z-index: 1; */
+  width: 100%;
+  background: #30743a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-family: "poppins", sans-serif;
+}
+.nav__header__left {
+  display: flex;
+  padding: 0 20px;
+}
+.nav__header__right {
+  display: flex;
+  padding: 0 20px;
+}
+.nav__header__connect__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.connect__list__name {
+  font-size: 13px;
+  margin: 0 2px;
+  font-weight: 300;
+}
+.right__icon {
+  margin: 0 5px;
+}
+.top__icon {
+  color: #b5d950;
+  font-size: 15px;
+}

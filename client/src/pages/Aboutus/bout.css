@@ -1,0 +1,88 @@
+.about__container {
+}
+.about__card {
+  margin: 40px 30px 80px 30px;
+  width: 70%;
+  background-color: #1c1d30;
+  height: 70vh;
+  position: relative;
+}
+.about__img {
+  margin-bottom: 20px;
+  position: absolute;
+  width: 90%;
+  object-fit: cover;
+  height: 70vh;
+  right: -38%;
+  bottom: -10%;
+  margin: auto 20px;
+  z-index: 1;
+}
+.about__details {
+  font-family: "poppins", sans-serif;
+  color: #fff;
+  margin: auto 30px;
+  top: 40%;
+  position: absolute;
+}
+.about__title {
+  font-size: 35px;
+  text-transform: capitalize;
+ width: 20%;
+  border-bottom: 2px solid #fff;
+}
+.about__para {
+  width: 40%;
+}
+.about__sub__para{
+  font-family: 'poppins',sans-serif;
+  /* padding: 20px 30px; */
+  margin: 20px auto;
+  width: 80%;
+  opacity: 80%;
+
+  text-align: center;
+  font-size: 19px;
+  letter-spacing: 0.5px;
+}
+.about__view{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px 30px 40px;
+}
+.about__left__view img{
+  width: 100%;
+  object-fit: cover;
+  height: 60vh;
+  opacity: 400%;
+}
+.about__right__view img{
+  width: 100%;
+  object-fit: cover;
+  height: 60vh;
+  opacity: 400%;
+}
+.about__right__view{
+  display: flex;flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+.sd{
+  display: flex;flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+.df{
+  font-family: 'poppins',sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+  width: 35%;
+  margin-bottom: 10px;
+}
+.df__para{
+  font-family: 'poppins',sans-serif;
+  opacity: 80%;
+  /* width: 70%; */
+  text-align: justify;
+}

@@ -1,0 +1,85 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    margin: 70px 160px;
+
+  }
+  
+  td {
+    
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr{
+    height: 160px;
+    
+  }
+
+  #t1{
+      font-size: 40px;
+      background-color: rgb(148, 238, 58);
+  }
+
+  tr:hover 
+  {
+    background-color: rgb(155, 253, 155);
+  }
+
+ 
+
+  #btnv{
+    background-color: #3eee38;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin:65px 100px;
+  }
+
+  #imgv {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 10px 20px;
+  }
+  
+  #p1{
+    margin: -125px 350px;
+    color: black;
+    font-size:large;
+    
+  }
+  #p2{
+    margin: 15px 0px;
+    color: black;
+  }
+
+#next{
+
+  background-color: #3eee38;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin:-65px 165px;
+}
+
+#searchbar{
+  width: 20%;
+  height: 20%;
+  padding: 10px;
+  border: 1px solid #111111;
+  border-radius: 4px;
+  resize: vertical;
+  margin:20px 500px -70px ;
+  text-align: center;
+}
+
